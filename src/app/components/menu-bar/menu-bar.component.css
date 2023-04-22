@@ -60,9 +60,16 @@
   align-items: center;
   padding: 0 50px;
 }
-.main__menu a > .active{
+.main__menu li:hover, .contact__button:hover {
   background-color: #7F7E77;
-  color: #554c3d;
+  color: #31200f;
+}
+.main__menu .active{
+  background-color: #7F7E77;
+  
+}
+.active span {
+  color: #31200f;
 }
 
 .contact__button {

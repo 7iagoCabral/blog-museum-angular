@@ -35,21 +35,21 @@ a {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 1fr auto;
-  height: 400px;
+  height: auto;
   background-color: #8f8969;
 }
 .small {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 55% 1fr auto;
-  height: 400px;
+  height: auto;
   background-color: #986c54;
 }
 .small-2 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 1fr 46px;
-  height: 400px;
+  height: auto;
   background-color: #b4a38b;
 }
 
@@ -167,8 +167,5 @@ a {
     background-color: #b4a38b;
   }
 
-
-}
-@media ( max-width: 540px ) {
 
 }
