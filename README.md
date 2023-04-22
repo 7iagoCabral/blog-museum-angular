@@ -1,27 +1,19 @@
-# BlogMuseumAngular
+# Blog Museu Nacional
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Este Projeto foi desenvolvido no bootcamp  "Potência Tech Angular Developer - Powered by iFood" como desafio da aulas. O tema e layout foi modificado para proporcionar um desafio extra. Layout de referencia foi retirado do dribbble.com e conteudos utilizado do proprio site oficial do museu e wikepedia.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Responsividade
 
-## Code scaffolding
+<p>Versão Desktop (computador)</p>
+<img width="90%" src="https://user-images.githubusercontent.com/97841160/233759440-27e4e528-7547-4472-a80c-711b76bfa790.png" />
+<p>Versão Tablet</p>
+<img width="90%" src="https://user-images.githubusercontent.com/97841160/233759442-bc39de5e-7635-475e-a4a2-be51a8940246.png" />
+<div>
+<p>Versão mobile (celular)</p>
+<img width="90%" src="https://user-images.githubusercontent.com/97841160/233759444-b426ca58-994e-4897-9377-15b5727c833d.png" />
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+</div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
