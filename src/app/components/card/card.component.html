@@ -1,0 +1,77 @@
+
+<div [ngSwitch]="cardType">
+  <div *ngSwitchCase="'big'">
+
+    <a [routerLink]="['content', Id]">
+      <div class="card big">
+        <div class="container">
+          <span class="category">{{ category }}</span>
+          <h2 class="title">{{ title }}</h2>
+        </div>
+        <img class="image" src="{{image}}" alt="" />
+        <div class="footer-card">
+          <span>get stared</span>
+          <span> -> </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+  <div *ngSwitchCase="'medium'">
+
+    <a [routerLink]="['content', Id]">
+      <div class="card medium">
+        <div class="container">
+          <span class="category"> {{ category }} </span>
+          <h2 class="title"> {{ title }} </h2>
+          <p class="resume"> {{ resume }} </p>
+        </div>
+        <img class="image" src="{{ image }}" alt="{{ title }}" />
+        <div class="footer-card">
+          <span>get stared</span>
+          <span> -> </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+  <div *ngSwitchCase="'small'">
+
+    <a [routerLink]="['content', Id]">
+      <div class="card small">
+        <img class="image" src="{{ image }}" alt="{{ title }}" />
+        <div class="container">
+          <span class="category">{{ category }}</span>
+          <h2 class="title">{{ title }}</h2>
+          <p class="resume">{{ resume }}</p>
+        </div>
+        <div class="footer-card">
+          <span>get stared</span>
+          <span> -> </span>
+        </div>
+      </div>
+    </a> 
+
+  </div>
+  <div *ngSwitchCase="'small-2'">
+
+    <a [routerLink]="['content', Id]">
+      <div class="card small-2">
+        <div class="container between">
+          <span class="category">{{ category }}</span>
+          <img class="image" src="{{image}}" alt="{{title}}" />
+        </div>
+        <div class="container">
+          <h2 class="title">{{ title }}</h2>
+          <p class="resume"> {{ resume }} </p>
+        </div>
+        <div class="footer-card">
+          <span>get stared</span>
+          <span> -> </span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</div>
